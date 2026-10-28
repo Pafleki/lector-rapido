@@ -1,0 +1,10 @@
+{
+  "name": "Lector rápido de correos",
+  "short_name": "Lector rápido",
+  "description": "Lee textos palabra por palabra a una velocidad ajustable.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#101114",
+  "theme_color": "#101114",
+  "orientation": "any"
+}

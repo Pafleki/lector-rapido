@@ -1,0 +1,22 @@
+LECTOR RÁPIDO DE CORREOS — VERSIÓN PWA
+
+Contenido:
+- index.html: aplicación.
+- manifest.webmanifest: permite instalarla como aplicación web.
+- sw.js: caché para abrirla después de la primera visita, incluso sin conexión.
+
+PUBLICAR GRATIS CON GITHUB PAGES (desde Windows)
+1. Entra en https://github.com/ y crea una cuenta si no tienes.
+2. Crea un repositorio nuevo llamado lector-rapido. Puedes hacerlo público; estos archivos no contienen correos ni datos personales.
+3. Sube los tres archivos de esta carpeta a la raíz del repositorio: index.html, manifest.webmanifest y sw.js.
+4. En el repositorio, abre Settings > Pages.
+5. En Build and deployment, selecciona Deploy from a branch; elige la rama main y la carpeta /(root), y guarda.
+6. Espera a que GitHub Pages publique el sitio. La dirección tendrá una forma parecida a https://TU-USUARIO.github.io/lector-rapido/.
+7. En el iPad, abre esa dirección en Safari. Pulsa Compartir > Añadir a pantalla de inicio.
+8. Abre el icono creado. Tras la primera carga, la app podrá conservarse en caché para uso sin conexión.
+
+PRIVACIDAD
+La aplicación procesa el texto en el dispositivo. Para pasar texto desde Atajos se admite el formato de fragmento URL #text=...; la parte después de # no se envía al servidor web. El fragmento se elimina del historial visible tras importarlo. No pegues texto sensible en un enlace que vayas a compartir con otras personas.
+
+LIMITACIÓN ACTUAL
+Esto instala el lector como aplicación web, no como extensión nativa de Apple Mail. Que Mail permita compartir el cuerpo completo del mensaje a Atajos depende del contenido que exponga la aplicación. Primero conviene probar qué entrega Mail en el menú Compartir.
